@@ -261,3 +261,107 @@ header {
     color: white;
     border: solid 1px #FF7A50;
 }
+
+/*////////////// section-4 ////////////// */
+
+.section-4 {
+    
+    border: solid 1px black;
+    width: 1169px;
+    height: 985px;
+    margin: auto;
+    margin-top: 128px;
+}
+
+.section-4-header {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-4-barcha {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.bar-menu-food {
+    width: 361px;
+    height: 417px;
+    background-color: white;
+    border-top-left-radius: 53px;
+    border-bottom-right-radius: 53px;
+}
+
+.bar-menu-food-name {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.menu-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 302px;
+    margin-top: 5px;
+}
+
+.menu-time p {
+    color: #363853;
+    opacity: 0.9;
+}
+
+.menu-time button {
+    cursor: pointer;
+    padding: 9.5px 27px;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+    background-color: #FF7A50;
+    color: white;
+    border: solid 1px #FF7A50;
+    /*  */
+
+
+}
+
+/*////////////// Download  Our Mobile App ////////////// */
+
+.mobile-app {
+    border: solid 1px black;
+    width: 1174.91px;
+    height: 481px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 165px;
+}
+
+.play-app-text {
+    border: solid 1px blue;
+    width: 538px;
+    height: 244px;
+}
+
+.app-big-text {
+    font-size: 36px;
+}
+
+.app-small-text {
+    margin-top: 30px;
+    color: #363853;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.download-app {
+    width: 290px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
