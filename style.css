@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f3f3fd61;
+}
+
+header {
+    width: 1231px;
+    height: 825.5429077148438px;
+    margin: auto;
+    margin-top: 54px;
+    margin-bottom: 94.48px;
+}
+
+.header-big-bar {
+    margin: auto;
+    width: 1231px;
+    height: 50.4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bar {
+    width: 786px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bar a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bar2, .bar3, .bar4 {
+    cursor: pointer;
+    color: black;
+}
+
+.sign-up button {
+    cursor: pointer;
+    padding: 14.5px 28px;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: white;
+    border: solid 1px #FF7A50;
+}
+
+/* /////////////////////////////////// */
+
+.header-main {
+    width: 1231px;
+    height: 774px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    width: 530px;
+}
+
+.header-big-text {
+    font-size: 66px;
+    width: 530px;
+    height: 156px;
+}
+
+.header-small-text {
+    color: #363853;
+    font-size: 20px;
+    width: 513px;
+    height: 66px;
+}
+
+.header-download {
+    width: 328px;
+    height: 50.41px;
+    display: flex;
+    align-items: center;
+}
+
+.header-download button {
+    cursor: pointer;
+    padding: 12.5px 27px;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: white;
+    border: solid 1px #FF7A50;
+}
+
+.header-download div {
+    cursor: pointer;
+    padding: 14.5px 28px;
+    border-radius: 5px;
+    text-decoration:underline;
+    color: #363853;
+}
+
+.header-left {
+    border: solid 1px yellowgreen;
+}
+
+.scooter {
+    width: 689px;
+    height: 681px;
+}
+
+/* //////////////   MAIN   ////////////// */
+/*////////////// category ////////////// */
+
+.category {
+    width: 1156px;
+    height: 560px;
+    margin: auto;
+}
+
+.category-header {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.category-header span {
+    color: #FF7A50;
+}
+
+.category-bar {
+    margin-top: 54.87px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.active-category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 70px;
+    border-radius: 11px;
+    background-color: white;
+    border: solid 1px white;
+    color: black;
+}
+
+.category_main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+.gurger-bar {
+    /* border: solid 1px; */
+    background-color: white;
+    border-radius: 11px;
+    width: 208px;
+    height: 279px;
+    
+}
+
+.gurger-bar img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.gurger-bar p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.gurger-bar button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    padding: 9.5px 27px;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: white;
+    border: solid 1px #FF7A50;
+}
+
+/* //////////////   slider // next / prep   ////////////// */
+
+.next-prev div {
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-prev div .nuqtalar {
+    width: 90px;
+    justify-content: space-between;
+}
+
+.next-prev {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/*////////////// section-3 ////////////// */
+
+.section-3 {
+    border: solid 1px black;
+    width: 1212px;
+    height: 723px;
+    margin: auto;
+    margin-top: 87px;
+    display: flex;
+    align-items: center;
+}
+
+.section-3-right {
+    width: 499px;
+    height: 497px;
+}
+
+.section-3-big-text {
+    font-size: 36px;
+}
+
+.section-3-small-text {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+
+.section-3-download {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.section-3-download span {
+    font-size: 24px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.see-more {
+    cursor: pointer;
+    padding: 11.5px 35px;
+    margin-top: 49px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: #FF7A50;
+    color: white;
+    border: solid 1px #FF7A50;
+}
