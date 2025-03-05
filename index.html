@@ -1,304 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EFood | SARDORBEK Musurmonov</title>
     <!-- CSS STYLE -->
-     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="header-big-bar">
-                <div class="logo">
-                    <img src="EFood.png" alt="">
-                </div>
-                <div class="header-bar">
-                    <a href="#" class="bar1" style="color: #FF7A50;">Home</a>
-                    <a href="#" class="bar2">Servise</a>
-                    <a href="#" class="bar3">Top cities</a>
-                    <a href="#" class="bar4">Contract</a>
-                    <a href="#" class="search-div">
-                        <img src="Search.png" alt="Search">
-                    </a>
-                    <a href="#" class="shop-logo">
-                        <img src="Buy.png" alt="savatning o'zi">
-                        <img src="Order.png" alt="savat tepasidagi raqam">
-                    </a>
-                    <div class="sign-up">
-                        <button>Sign Up</button>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="header-big-bar">
+          <div class="logo">
+            <img src="EFood.png" alt="" />
+          </div>
+          <div class="header-bar">
+            <a href="#" class="bar1" style="color: #ff7a50">Home</a>
+            <a href="#" class="bar2">Servise</a>
+            <a href="#" class="bar3">Top cities</a>
+            <a href="#" class="bar4">Contract</a>
+            <a href="#" class="search-div">
+              <img src="Search.png" alt="Search" />
+            </a>
+            <a href="#" class="shop-logo">
+              <img src="Buy.png" alt="savatning o'zi" />
+              <img src="Order.png" alt="savat tepasidagi raqam" />
+            </a>
+            <div class="sign-up">
+              <button>Sign Up</button>
             </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="header-main">
-                <div class="header-right">
-                    <p class="header-big-text">
-                        <span style="color: #363853;">Super Fast</span>
-                        <span style="color: #FF7A50;">Food</span>
-                        <br>
-                        <span style="color: #FF7A50;">Delivery</span>
-                        <span style="color: #363853;">Servise</span>
-                    </p>
-                    <p class="header-small-text">We provide super fast-delivery service. Let's use our services right now and get discounts of up to 50%</p>
-                    <div class="header-download">
-                        <button>Explore Food</button>
-                        <div>Download App</div>
-                    </div>
-                </div>
-                <div class="header-left">
-                    <img src="Scooter Guy.png" alt="scooter" class="scooter">
-                    <!-- <img src="Review.png" alt="rasimdagi chat">
-                    <img src="Time.png" alt="rasimdagi search">
-                    <img src="Time (1).png" alt="rasimdagi soatcha">
-                    <img src="Send shape.png" alt="rasimdagi chiziq">
-                    <img src="Doubble sandwich.png" alt="rasimdagi ovqat"> -->
-                </div>
+      </div>
+      <div class="container">
+        <div class="header-main">
+          <div class="header-right">
+            <p class="header-big-text">
+              <span style="color: #363853">Super Fast</span>
+              <span style="color: #ff7a50">Food</span>
+              <br />
+              <span style="color: #ff7a50">Delivery</span>
+              <span style="color: #363853">Servise</span>
+            </p>
+            <p class="header-small-text">
+              We provide super fast-delivery service. Let's use our services
+              right now and get discounts of up to 50%
+            </p>
+            <div class="header-download">
+              <button>Explore Food</button>
+              <div>Download App</div>
             </div>
+          </div>
+          <div class="scooter-container">
+            <img src="Scooter Guy.png" class="scooter" alt="Scooter">
+            <img src="Review.png" class="icon photo-chat" alt="Chat Icon">
+            <img src="Time.png" class="icon photo-search" alt="Search Icon">
+            <img src="Time (1).png" class="icon photo-time" alt="Time Icon">
+            <img src="Send shape.png" class="icon photo-chiziq" alt="Chiziq Icon">
+            <img src="Doubble sandwich.png" class="icon photo-ovqat" alt="Ovqat Icon">
+          </div>
         </div>
+      </div>
     </header>
     <!--//// MAIN ////-->
     <main>
-        <!-- //////// -->
-        <!-- category -->
-         <!-- //////// -->
-        <div class="container">
-            <div class="category">
-                <p class="category-header">Our popular <span>Category</span></p>
-                <div class="category-bar">
+      <!-- //////// -->
+      <!-- category -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="category">
+          <p class="category-header">
+            <span style="color: #363853">Our Popular</span
+            ><span style="color: #ff7a50">Category</span>
+          </p>
+          <div class="category-bar">
+            <button
+              class="active-category-button"
+              id="active-category-button-burger"
+            >
+              <img src="burger 1.png" alt="burger" />
+              <span>Burger</span>
+            </button>
 
-                    <button class="active-category-button">
-                        <img src="burger 1.png" alt="burger">
-                        <span>Burger</span>
-                    </button>
+            <button
+              class="active-category-button"
+              id="active-category-button-pizza"
+            >
+              <img src="pizza 1.png" alt="pizza" />
+              <span>Pizza</span>
+            </button>
 
-                    <button class="active-category-button">
-                        <img src="pizza 1.png" alt="pizza">
-                        <span>Pizza</span>
-                    </button>
+            <button
+              class="active-category-button"
+              id="active-category-button-sandwich"
+            >
+              <img src="sandwich 1.png" alt="sandwich" />
+              <span>sandwich</span>
+            </button>
 
-                    <button class="active-category-button">
-                        <img src="sandwich 1.png" alt="sandwich">
-                        <span>sandwich</span>
-                    </button>
+            <button
+              class="active-category-button"
+              id="active-category-button-asianfood"
+            >
+              <img src="sandwich 1 (1).png" alt="asian food" />
+              <span>Asian Food</span>
+            </button>
 
-                    <button class="active-category-button">
-                        <img src="sandwich 1 (1).png" alt="asian food">
-                        <span>Asian Food</span>
-                    </button>
-
-                    <button class="active-category-button">
-                        <img src="dish 1.png" alt="burger">
-                        <span>Set Menu</span>
-                    </button>
-
-                </div>
-                <div class="category_main">
-
-                    <div class="gurger-bar">
-                        <img src="item_01-480x480 1.png" alt="burger-1">
-                        <img src="Star.png" alt="star">
-                        <p class="burger-name">Cheeseburger With Salad</p>
-                        <p class="burger-price">$18.00</p>
-                        <button class="burger-btn">Add to Cart</button>
-                    </div>
-
-                    <div class="gurger-bar">
-                        <img src="Burger.png" alt="burger-1">
-                        <br>
-                        <img src="Star.png" alt="star">
-                        <p class="burger-name">Beef Burger</p>
-                        <p class="burger-price">$15.00</p>
-                        <button class="burger-btn">Add to Cart</button>
-                    </div>
-
-                    <div class="gurger-bar">
-                        <img src="item_01-480x480 1 (1).png" alt="burger-1">
-                        <img src="Star.png" alt="star">
-                        <p class="burger-name">Royel Cheeseburger</p>
-                        <p class="burger-price">$16.00</p>
-                        <button class="burger-btn">Add to Cart</button>
-                    </div>
-
-                    <div class="gurger-bar">
-                        <img src="item_01-480x480 1 (2).png" alt="burger-1">
-                        <img src="Star.png" alt="star">
-                        <p class="burger-name">Black Gambugrer </p>
-                        <p class="burger-price">$14.00</p>
-                        <button class="burger-btn">Add to Cart</button>
-                    </div>
-
-                    <div class="gurger-bar">
-                        <img src="item_01-480x480 1 (3).png" alt="burger-1">
-                        <img src="Star.png" alt="star">
-                        <p class="burger-name">Chicken Burger</p>
-                        <p class="burger-price">$15.00</p>
-                        <button class="burger-btn">Add to Cart</button>
-                    </div>
-
-                </div>
-                <div class="next-prev">
-                    <div>
-                        <img src="up-arrow 2.png" alt="prev">
-                        <div class="nuqtalar">
-                            <img src="Ellipse 56.png" alt="nuqta">
-                            <img src="Ellipse 56.png" alt="nuqta">
-                            <img src="Ellipse 56.png" alt="nuqta">
-                            <img src="Ellipse 56.png" alt="nuqta">
-                            <!-- Davom ettirish mumkin -->
-                        </div>
-                        <img src="up-arrow 1.png" alt="next">
-                    </div>
-                </div>
+            <button
+              class="active-category-button"
+              id="active-category-button-menu-set"
+            >
+              <img src="dish 1.png" alt="burger" />
+              <span>Set Menu</span>
+            </button>
+          </div>
+          <div class="category_main">
+            <div class="gurger-bar">
+              <img src="item_01-480x480 1.png" alt="burger-1" />
+              <img src="Star.png" alt="star" />
+              <p class="burger-name">Cheeseburger With Salad</p>
+              <p class="burger-price">$18.00</p>
+              <button class="burger-btn">Add to Cart</button>
             </div>
-        </div>
-        <!-- ///////// -->
-        <!-- section-3 -->
-        <!-- //////// -->
-        <div class="container">
-            <div class="section-3">
-                <div class="section-3-left">
-                    <img src="food delivery 4.png" alt="section-3-photo">
-                </div>
-                <div class="section-3-right">
-                    <p class="section-3-big-text"><span style="color: #FF7A50;">Stay </span><span>At Home, We Will</span>
-                    <br>
-                    <span>Provide</span><span style="color: #FF7A50;"> Good Food</span>
-                    </p>
-                    <p class="section-3-small-text">
-                        We provide tasty food and superfast delivery at your home.  Let's use our services right now and get discounts of up to 50%.
-                    </p>
-                    <div class="section-3-download">
-                        <img src="Timer icon.png" alt="">
-                        <span>fasted delivery in 30 Minutes</span>
-                    </div>
-                    <div class="section-3-download">
-                        <img src="Men.png" alt="">
-                        <span>300+ delivery men</span>
-                    </div>
-                    <div class="section-3-download">
-                        <img src="Resturent icon.png" alt="">
-                        <span>500+ restaurant & cafe shop</span>
-                    </div>
-                    <button class="see-more">See more</button>
-                </div>
-            </div>
-        </div>
-        <!-- //////// -->
-        <!-- section-4 -->
-        <!-- //////// -->
-         <div class="container">
-            <div class="section-4">
-                <p class="section-4-header"><span style="color: #FF7A50;">Top Food</span><span style="margin-left: 7px;">Restaurant</span></p>
-                <div class="section-4-bar">
 
-                    <div class="section-4-barcha">
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53.png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">Blaze Pizza</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>11.00 AM - 10.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-    
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53 (1).png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">Pizza Ranch</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>09.00 AM - 10.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-    
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53 (2).png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">Dion's Pizza Hut</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>10.00 AM - 12.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="section-4-barcha">
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53 (3).png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">Royel Burger</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>11.00 AM - 10.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-    
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53 (4).png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">KFC Restaurant</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>09.00 AM - 10.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-    
-                        <div class="bar-menu-food">
-                            <img src="Rectangle 53 (5).png" alt="Blaze Pizza">
-                            <p class="bar-menu-food-name">Star Food</p>
-                            <div class="menu-time">
-                                <img src="timer 1.png" alt="itme watch">
-                                <p>11.00 AM - 10.00 PM</p>
-                                <button>
-                                    <img src="Group.png" alt="btn next icon">
-                                </button>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
+            <div class="gurger-bar">
+              <img src="Burger.png" alt="burger-2" />
+              <br />
+              <img src="Star.png" alt="star" />
+              <p class="burger-name">Beef Burger</p>
+              <p class="burger-price">$15.00</p>
+              <button class="burger-btn">Add to Cart</button>
             </div>
-        </div>
-        <!-- //////// -->
-        <!-- Download  Our Mobile App -->
-        <!-- //////// -->
-        <div class="container">
-            <div class="mobile-app">
-                <div class="play-app-text">
-                    <p class="app-big-text">
-                        <span style="color: #363853;">Download Our</span><span style="color: #FF7A50;">Mobile App</span>
-                    </p>
-                    <p class="app-small-text">It's all at your fingertips -- the restaurants you love. Find the right food to suit your mood, and make the first bite last. Go ahead, download app and get 50% discount</p>
-                    <div class="download-app">
-                        <div class="app-store">
-                            <img src="Store=App Store, Style=Black.png" alt="App Store">
-                        </div>
-                        <div class="google-play">
-                            <img src="Store=Google Play, Style=Black.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="play-app-photo">
-                    <img src="Group 178.png" alt="">
-                </div>
+
+            <div class="gurger-bar">
+              <img src="item_01-480x480 1 (1).png" alt="burger-3" />
+              <img src="Star.png" alt="star" />
+              <p class="burger-name">Royel Cheeseburger</p>
+              <p class="burger-price">$16.00</p>
+              <button class="burger-btn">Add to Cart</button>
             </div>
+
+            <div class="gurger-bar">
+              <img src="item_01-480x480 1 (2).png" alt="burger-4" />
+              <img src="Star.png" alt="star" />
+              <p class="burger-name">Black Gambugrer</p>
+              <p class="burger-price">$14.00</p>
+              <button class="burger-btn">Add to Cart</button>
+            </div>
+
+            <div class="gurger-bar">
+              <img src="item_01-480x480 1 (3).png" alt="burger-5" />
+              <img src="Star.png" alt="star" />
+              <p class="burger-name">Chicken Burger</p>
+              <p class="burger-price">$15.00</p>
+              <button class="burger-btn">Add to Cart</button>
+            </div>
+          </div>
+          <div class="next-prev">
+            <div>
+              <img
+                src="up-arrow 2.png"
+                alt="prev"
+                class="prev"
+                id="category-btn-prev"
+              />
+              <div class="nuqtalar">
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <img src="Ellipse 56.png" alt="nuqta" />
+                <!-- Davom ettirish mumkin -->
+              </div>
+              <img
+                src="up-arrow 1.png"
+                alt="next"
+                class="next"
+                id="category-btn-next"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- ///////// -->
+      <!-- section-3 -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="section-3">
+          <div class="section-3-left">
+            <img src="food delivery 4.png" alt="section-3-photo" />
+          </div>
+          <div class="section-3-right">
+            <p class="section-3-big-text">
+              <span style="color: #ff7a50">Stay </span
+              ><span>At Home, We Will</span>
+              <br />
+              <span>Provide</span><span style="color: #ff7a50"> Good Food</span>
+            </p>
+            <p class="section-3-small-text">
+              We provide tasty food and superfast delivery at your home. Let's
+              use our services right now and get discounts of up to 50%.
+            </p>
+            <div class="section-3-download">
+              <img src="Timer icon.png" alt="" />
+              <span>fasted delivery in 30 Minutes</span>
+            </div>
+            <div class="section-3-download">
+              <img src="Men.png" alt="" />
+              <span>300+ delivery men</span>
+            </div>
+            <div class="section-3-download">
+              <img src="Resturent icon.png" alt="" />
+              <span>500+ restaurant & cafe shop</span>
+            </div>
+            <button class="see-more" id="see-more">See more</button>
+          </div>
+        </div>
+      </div>
+      <!-- //////// -->
+      <!-- section-4 -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="section-4">
+          <p class="section-4-header">
+            <span style="color: #ff7a50">Top Food</span
+            ><span style="margin-left: 7px">Restaurant</span>
+          </p>
+          <div class="section-4-bar">
+            <div class="section-4-barcha">
+              <div class="bar-menu-food">
+                <img src="Rectangle 53.png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">Blaze Pizza</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>11.00 AM - 10.00 PM</p>
+                  <button id="section-4-btn-1">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="bar-menu-food">
+                <img src="Rectangle 53 (1).png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">Pizza Ranch</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>09.00 AM - 10.00 PM</p>
+                  <button id="section-4-btn-2">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="bar-menu-food">
+                <img src="Rectangle 53 (2).png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">Dion's Pizza Hut</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>10.00 AM - 12.00 PM</p>
+                  <button id="section-4-btn-3">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-4-barcha">
+              <div class="bar-menu-food">
+                <img src="Rectangle 53 (3).png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">Royel Burger</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>11.00 AM - 10.00 PM</p>
+                  <button id="section-4-btn-4">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="bar-menu-food">
+                <img src="Rectangle 53 (4).png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">KFC Restaurant</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>09.00 AM - 10.00 PM</p>
+                  <button id="section-4-btn-5">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="bar-menu-food">
+                <img src="Rectangle 53 (5).png" alt="Blaze Pizza" />
+                <p class="bar-menu-food-name">Star Food</p>
+                <div class="menu-time">
+                  <img src="timer 1.png" alt="itme watch" />
+                  <p>11.00 AM - 10.00 PM</p>
+                  <button id="section-4-btn-6">
+                    <img src="Group.png" alt="btn next icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //////// -->
+      <!-- Download  Our Mobile App -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="mobile-app">
+          <div class="play-app-text">
+            <p class="app-big-text">
+              <span style="color: #363853">Download Our</span
+              ><span style="color: #ff7a50">Mobile App</span>
+            </p>
+            <p class="app-small-text">
+              It's all at your fingertips -- the restaurants you love. Find the
+              right food to suit your mood, and make the first bite last. Go
+              ahead, download app and get 50% discount
+            </p>
+            <div class="download-app">
+              <div class="app-store" id="app-store">
+                <img src="Store=App Store, Style=Black.png" alt="App Store" />
+              </div>
+              <div class="google-play" id="google-play">
+                <img src="Store=Google Play, Style=Black.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="play-app-photo">
+            <img src="Group 178.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- //////// -->
+      <!-- What Our Client Are Saying  -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="section-5">
+          <p class="section-5-header">
+            <span style="color: #363853">What Our Client Are</span
+            ><span style="color: #ff7a50">Saying</span>
+          </p>
+          <div class="section-5-main">
+            <div class="section-5-main-left">
+              <img src="Rectangle 8 (1).png" alt="" />
+            </div>
+            <div class="section-5-main-right">
+              <p class="main-5-text">
+                EFood has the most intriguing food order system in the country.
+                UI in both their app and web Is very simple and easy to use,
+                enhancing the UX. Their delivery men are also quite professional
+                and knows the neighborhood well. Till now I never had to guide
+                them to my address for delivery;
+              </p>
+              <div class="section-5-slide">
+                <div class="main-5-slide-left">
+                  <p>Anglina Jole</p>
+                  <br />
+                  <span>Food lover</span>
+                </div>
+                <div class="main-5-slide-right">
+                  <img
+                    src="ArrowLeft.png"
+                    alt=""
+                    class="prev"
+                    id="section-5-prev"
+                  />
+                  <img
+                    src="Group 27.png"
+                    alt=""
+                    class="next"
+                    id="section-5-next"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //////// -->
+      <!-- Subscribe to get the Latest Offer  -->
+      <!-- //////// -->
+      <div class="container">
+        <div class="subsc">
+          <p class="subsc-big-text">Subscribe to get the Latest Offer</p>
+          <p class="subsc-small-text">
+            Get our daily updates by subscribing to our newspaper, please drop
+            your email below
+          </p>
+          <div class="subsc-input">
+            <input type="text" placeholder="   Enter your email address" />
+            <button class="subsc-btn" id="subsc-btn">
+              <img src="Frame.png" alt="send icon" />
+              <span>Subscribe</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
-
-    <footer></footer>
-</body>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-call">
+          <img src="EFood.png" alt="" />
+          <br />
+          <br />
+          <p class="location">
+            <img src="Location.png" alt="" />
+            <span>Dhaka, Bangladesh</span>
+          </p>
+          <br />
+          <p class="tel-num">
+            <img src="Calling.png" alt="" />
+            <span>0943833399</span>
+          </p>
+          <br />
+          <p class="email">
+            <img src="Message.png" alt="" />
+            <span>support@efood.com</span>
+          </p>
+          <br />
+          <div class="messages">
+            <a href="#">
+              <img src="facebook.png" alt="rfrf" />
+            </a>
+            <a href="#">
+              <img src="twitter.png" alt="rfr" />
+            </a>
+            <a href="#">
+              <img src="instagram.png" alt="efe" />
+            </a>
+            <a href="#">
+              <img src="pinterest.png" alt="eff" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-service">
+          <p class="service-header">Service</p>
+          <br />
+          <div class="service-bar">
+            <p>How it works</p>
+            <br />
+            <p>Home delivery</p>
+            <br />
+            <p>Prducts</p>
+            <br />
+            <p>Menu</p>
+          </div>
+        </div>
+        <div class="footer-company">
+          <p class="company-header">Company</p>
+          <br />
+          <div class="company-bar">
+            <p>About Us</p>
+            <br />
+            <p>News</p>
+            <br />
+            <p>Our trusted partner</p>
+            <br />
+            <p>New users FAQ</p>
+          </div>
+        </div>
+        <div class="footer-supports">
+          <p class="supports-header">Supports</p>
+          <br />
+          <div class="supports-bar">
+            <p>Help center</p>
+            <br />
+            <p>Feedbcak</p>
+            <br />
+            <p>Contact us</p>
+            <br />
+            <p>Terms conditins</p>
+          </div>
+        </div>
+        <div class="footer-resources">
+          <p class="resources-header">Resources</p>
+          <br />
+          <div class="resources-bar">
+            <p>Download app</p>
+            <br />
+            <p>Blog</p>
+            <br />
+            <p>What's new</p>
+            <br />
+            <p>Sitemap</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
