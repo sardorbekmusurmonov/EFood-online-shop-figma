@@ -649,6 +649,9 @@ header {
   transform: scale(1.1);
 }
 
+.subsc-input button:active {
+  border: none;
+}
 /* //////// footer //////// */
 
 footer .container a {
@@ -662,4 +665,9 @@ footer .container {
   justify-content: space-between;
   margin: auto;
   margin-top: 121px;
+}
+
+/* /////////////// js //////////////// */
+.hide {
+  display: none !important;
 }
